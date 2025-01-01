@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #FFE893;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #FAFFC5;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    min-width: 55vmin;
+}
+
+.head {
+    padding: 0 0 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    letter-spacing: 1.1px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #6b3879;
+}
+
+.amount {
+    font-size: 1.1rem;
+    color: rgb(50, 49, 49);
+    letter-spacing: 1px;
+    padding-right: 1rem;
+}
+
+.amount input{
+    width: 100%;
+    height: 37px;
+    margin-top: 1%;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+    padding: 0 0 0 0.9rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.96rem;
+    letter-spacing: 1px;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.form select {
+    width: 100%;
+}
+
+.from{
+    border: 2px solid lightgrey;
+    padding: 1rem;
+    border-radius: 6px; 
+}
+
+.form i {
+    font-size: 1.4rem;
+    margin-top: 2.1rem;
+    color: rgb(75, 74, 74);
+}
+
+img{
+    border-radius: 9px;
+}
+
+select {
+    height: 30px;
+    padding: 0 0 0 0.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    font-size: 0.98rem;
+    outline: none;
+    border: 1.9px solid lightgrey;
+    color: grey;
+    border-radius: 5px;
+}
+
+option {
+    font-size: 1rem;
+    height: 35px;
+}
+
+.result {
+    margin-top: 3%;
+    height: 10vmin;
+    width: 100%;
+    margin-bottom: 3%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: #fcffda;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    color: rgb(211, 125, 11);
+    font-style: italic;
+}
+
+.from label {
+    font-size: 1.1rem;
+    color: rgb(54, 54, 54);
+    letter-spacing: 1px;
+}
+
+.To{
+    border: 2px solid lightgrey;
+    padding: 1rem;
+    border-radius: 6px; 
+}
+
+.To label {
+    font-size: 1.1rem;
+    color: rgb(54, 54, 54);
+    letter-spacing: 1px;
+}
+
+button{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #ffe175;
+    color: rgb(46, 46, 46);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+@media (max-width : 680px) {
+    .from{
+        margin: 0 15px 0 0;
+    }
+
+    .To {
+        margin: 0 0 0 15px;
+    }
+}
+
+@media (max-width: 470px){
+    .container{
+        margin: 0 2% 0 2%;
+    }
+
+    .head{
+        font-size: 1.4rem;
+    }
+}
